@@ -1,0 +1,29 @@
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding:1rem;
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(230 235 244 / var(--tw-border-opacity));
+}
+
+.create_button{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: #6469ff;
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+}
+@media (min-width: 640px) {
+  .header{
+    padding-left: 2rem/* 32px */;
+    padding-right: 2rem/* 32px */;
+  }
+}
